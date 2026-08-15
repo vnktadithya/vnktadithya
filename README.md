@@ -1,16 +1,17 @@
-## Hi there 👋
+### Building AI infrastructure from first principles, not API wrappers.
 
-<!--
-**vnktadithya/vnktadithya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently: fine-tuning a Mistral-7B classifier (QLoRA) to turn unstructured
+infrastructure log telemetry into structured root-cause analysis, evaluated
+with a vLLM-accelerated eval harness. → [LINK NEEDED]
 
-Here are some ideas to get you started:
+Recently merged: a fix to OpenHands' [software-agent-sdk](https://github.com/OpenHands/software-agent-sdk)
+resolving a Pydantic `exclude_none` bug that was silently dropping token
+limits in the condenser.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Also built from scratch (no frameworks):
+- A raw Python ReAct agent loop → [LINK NEEDED]
+- Backpropagation, following Karpathy's micrograd → [LINK NEEDED]
+
+**Stack:** Python · PyTorch · PEFT/LoRA · vLLM · FastAPI
+
+[Portfolio](https://my-portfolio-pink-gamma-52.vercel.app/)
